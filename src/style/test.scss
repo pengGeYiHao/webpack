@@ -1,0 +1,5 @@
+@import './mixins/sprite.scss';
+#box {
+    font-size: 50px;
+    @include sprite($sp)
+}
